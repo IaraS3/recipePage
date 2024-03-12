@@ -1,0 +1,128 @@
+@font-face {
+    font-family: youngSerif;
+    src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: outfit;
+    src: url('../fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(30, 54%, 90%);
+}
+
+img{
+    width: 550px;
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 15px;
+
+}
+
+.container-grid{
+    max-width:700px ;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white
+
+}
+
+.grid-item{
+    background-color:hsla(332, 57%, 68%, 0.822);
+    border-radius: 10px;
+    margin: 35px;
+    width: 550px;
+    height: 180px;
+}
+
+.grid-item>h3{
+    padding: 10px;
+    margin-left: 60px;
+}
+
+p{
+    font-family: outfit;
+}
+
+h1{
+    font-family: youngSerif;
+}
+
+h3{
+    color:hsl(332, 51%, 32%);
+    
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+}
+
+li::marker{
+    color:hsl(332, 51%, 32%);
+}
+
+.linha{
+    border-style: none none solid none;
+    border-width: 2px;
+    border-color: black;
+    margin-right: 20px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*celulas impares*/
+td:nth-of-type(odd){
+    color: hsl(332, 51%, 32%);
+}
+
+.espaçamento{
+    margin-top:60px ;
+    margin-left: 60px;
+    margin-right: 60px;
+
+
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+  }
+
+ .title{
+    font-family: youngSerif;
+    font-size: 40px;
+    margin-left: 70px;
+ }
+
+ .para{
+    font-family:outfit;
+    font-size: 20px;
+    margin-left: 60px;
+
+ }
+
+.main{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+article{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
